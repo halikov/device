@@ -1,0 +1,7 @@
+preview
+*.psd
+*.swp
+node_modules
+*.json
+gulpfile.js
+
