@@ -442,24 +442,20 @@ footer {
 
 .footer-top-row-rigth a {
     margin-left: 40px;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.7);
 }
 
-.footer-top-row-rigth .user-account-btn {
+.footer-top-row-rigth .footer-user-account-btn {
     display: none;
     margin-left: 10px;
 }
 
-.footer-top-row-rigth .login-btn {
+.footer-top-row-rigth .footer-login-btn {
     margin-left: 10px;
 }
 
 .footer-top-row-rigth span {
     margin-right: 10px;
-}
-
-.footer-top-row-rigth .user-icon {
-    margin: 0;
 }
 
 .footer-top-row-rigth svg {
@@ -468,6 +464,36 @@ footer {
 
 .footer-top-row-rigth path {
     fill: #ffc600;
+}
+
+.footer-user-profile a:hover,
+.footer-user-profile a:focus,
+.footer-compaire a:hover,
+.footer-compaire a:focus {
+    color: rgba(255, 255, 255, 1)
+}
+
+.footer-user-account-btn:hover .icon,
+.footer-user-account-btn:focus .icon,
+.footer-login-btn:hover .icon,
+.footer-login-btn:focus .icon
+.footer-compaire-btn:hover .icon,
+.footer-compaire-btn:focus .icon,
+.footer-cart-btn:hover .icon,
+.footer-cart-btn:focus .icon,
+ {
+    opacity: 0.6;
+}
+
+.footer-user-profile a:active {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-user-account-btn:active span,
+.footer-login-btn:active span,
+.footer-compaire-btn:active span,
+.footer-cart-btn:active span {
+    opacity: 0.3;
 }
 
 .footer-center {
@@ -502,6 +528,15 @@ footer {
     letter-spacing: 3.6px;
     text-transform: uppercase;
     color: #ffffff;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-nav a:active {
+    color: rgba(255, 255, 255, 0.3);
 }
 
 .footer-bottom-row {
@@ -544,6 +579,14 @@ footer {
     box-sizing: border-box;
 }
 
+.social a:hover,
+.social a:focus {
+    opacity: 1;
+}
+
+.social a:active {
+    opacity: 0.1;
+}
 .footer-bottom-row .logo-htmlacademy {
     display: block;
     width: 27;
@@ -552,6 +595,15 @@ footer {
     padding: 0;
     fill: #ffc600;
     box-sizing: border-box;
+}
+
+.footer-bottom-row .logo-htmlacademy:hover,
+.footer-bottom-row .logo-htmlacademy:focus {
+    opacity: 0.6;
+}
+
+.footer-bottom-row .logo-htmlacademy:active {
+    opacity: 0.3;
 }
 
 /* main */
